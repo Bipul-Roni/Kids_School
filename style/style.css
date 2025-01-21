@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 *{
     margin: 0;
@@ -17,8 +16,18 @@
     --paragraph-color: #808080;
     --accent-color: #FEA301;
     --white-color: #ffff;
+    --font-size: 2.875rem;
 
 }
+
+.heading{
+    font-size: var(--font-size);
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.25em;
+}
+
 .orange{
     color: var(--accent-color);
 }
@@ -44,7 +53,7 @@
 }
 
 .logo h1{
-    font-family: "Fira Sans", serif;
+    font-family: "Quicksand", serif;
     font-weight: 700;
     font-style: normal;
     line-height: 30px;
@@ -74,7 +83,7 @@
     background-color: orange;
     color: #ffff;
     font-size: 1.25rem;
-    font-family: "Fira Sans", serif;
+    font-family: "Quicksand", serif;
     font-weight: 600;
     line-height: 30px;
     cursor: pointer;
@@ -118,7 +127,7 @@
 
 .hero-content h1{
     font-size: 3.5rem;
-    font-family: "Fira Sans", serif;
+    font-family: "Quicksand", serif;
     font-weight: 700;
     font-style: normal;
     line-height: 1.089em;
@@ -126,7 +135,7 @@
  
 .hero-content p{
     font-size: 1.25rem;
-    font-family: "Fira Sans", serif;
+    font-family: "Quicksand", serif;
     font-weight: 400;
     font-style: normal;
     line-height: auto;
@@ -137,7 +146,7 @@
     border: none;
     border-radius: 12px;
     font-size: 1.25rem;
-    font-family: "Fira Sans", serif;
+    font-family: "Quicksand", serif;
     font-weight: 700;
     font-style: normal;
     background-color: var(--primary-color);
@@ -151,7 +160,26 @@
     cursor: pointer;
 }
 
+.curriculum{
+    background-image:url(../image/bg.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is breakpoint of mobile  */
 @media screen and (max-width: 480px) {
   
    
@@ -212,7 +240,7 @@
             font-size: 2rem;
             line-height: 1.3em;
             text-align: center;
-            font-family: "Fira Sans", serif;
+            font-family: "Quicksand", serif;
             font-weight: 700;
             font-style: normal;
             
@@ -220,7 +248,7 @@
         .hero-content p{
             width: 90%;
             font-size: 0.875rem;
-            font-family: "Fira Sans", serif;
+            font-family: "Quicksand", serif;
             font-weight: 400;
             font-style: normal;
             line-height: 1.5em;
@@ -232,7 +260,7 @@
             border: none;
             border-radius: 8px;
             font-size: 1rem;
-            font-family: "Fira Sans", serif;
+            font-family: "Quicksand", serif;
             font-weight: 700;
             line-height: 2em; 
         }
