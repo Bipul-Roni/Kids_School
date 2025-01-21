@@ -210,7 +210,7 @@
         }
         .hero-content h1{
             font-size: 2rem;
-            line-height: 1.5em;
+            line-height: 1.3em;
             text-align: center;
             font-family: "Fira Sans", serif;
             font-weight: 700;
@@ -234,10 +234,7 @@
             font-size: 1rem;
             font-family: "Fira Sans", serif;
             font-weight: 700;
-            line-height: 2em;
-            font-style: normal;
-            background-color: var(--primary-color);
-            color: var(--white-color);
+            line-height: 2em; 
         }
            
     
