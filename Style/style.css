@@ -117,13 +117,13 @@
 }
 
 .hero-content h1{
-    font-size: 56px;
+    font-size: 3.5rem;
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
-    line-height: 61px;
+    line-height: 1.089em;
 }
-
+ 
 .hero-content p{
     font-size: 1.25rem;
     font-family: "Fira Sans", serif;
@@ -156,7 +156,7 @@
   
    
     .header-menu{
-        width: 100%;
+        width: calc(100% - 32px);
         margin: 12px 20px;
         border-bottom: 1px solid var(--accent-color);
     }
@@ -176,14 +176,16 @@
 
    
 .hero{
-    width: 100%;
+    width: calc(100% - 32px);
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 28px 20px;
+    
 }
 
     
@@ -191,10 +193,53 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         justify-content: center;
-        gap: 24px;
+        gap: 18px;
+
         }
+        .hero-image{
+            width: calc(100% - 32px);
+            
+
+        }
+        .hero-image img{
+            width: 100%;
+            margin: auto;
+
+        }
+        .hero-content h1{
+            font-size: 2rem;
+            line-height: 1.5em;
+            text-align: center;
+            font-family: "Fira Sans", serif;
+            font-weight: 700;
+            font-style: normal;
+            
+        }
+        .hero-content p{
+            width: 90%;
+            font-size: 0.875rem;
+            font-family: "Fira Sans", serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 1.5em;
+            text-align: center;
+        }
+
+        .btn-body{
+            padding: 6px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: "Fira Sans", serif;
+            font-weight: 700;
+            line-height: 2em;
+            font-style: normal;
+            background-color: var(--primary-color);
+            color: var(--white-color);
+        }
+           
     
   
 }
