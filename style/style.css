@@ -753,5 +753,39 @@ footer{
             align-items: center;
             padding-bottom: 20px;
         }
+
+        .footer-main {
+            display: flex;
+            flex-wrap: nowrap;
+            align-content: flex-start;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        footer{
+            padding: 60px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .footer-main {
+            display: flex;
+            flex-wrap: nowrap;
+            align-content: flex-start;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 32px;
+        }
+        .logo-item {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .keep-touch i {
+            font-size: 30px;
+        }
 }
         
